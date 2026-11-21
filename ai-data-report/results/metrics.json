@@ -1,0 +1,32 @@
+{
+  "info": {
+    "rows_raw": 569,
+    "missing": 0,
+    "duplicates": 0,
+    "outlier_cells": 608,
+    "rows_clean": 569
+  },
+  "models": {
+    "Hồi quy logistic": {
+      "accuracy": 0.9649,
+      "f1": 0.9512,
+      "cv5": 0.9807
+    },
+    "Random Forest": {
+      "accuracy": 0.9649,
+      "f1": 0.95,
+      "cv5": 0.9543
+    }
+  },
+  "best": "Hồi quy logistic",
+  "top3": [
+    "worst perimeter",
+    "worst area",
+    "worst concave points"
+  ],
+  "n_features": 30,
+  "class_counts": {
+    "Lành tính": 357,
+    "Ác tính": 212
+  }
+}
